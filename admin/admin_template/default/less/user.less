@@ -1,0 +1,80 @@
+//main: style.less
+.s-user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  height: 70px;
+  overflow: hidden;
+  padding: 16px;
+
+  &:before {
+    top: 0;
+    left: 0;
+    z-index: -2;
+    content: '';
+    height: 174px;
+    position: absolute;
+    width: @sidebar-width;
+    background: url(media/bg.jpg);
+    background-size: cover;
+    filter: blur(5px);
+  }
+
+  &:after {
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    content: '';
+    height: 74px;
+    position: absolute;
+    width: @sidebar-width;
+    background-color: @color-4;
+
+  }
+
+  &-frame {
+    padding: 0 !important;
+    line-height: 0;
+  }
+  
+  &-photo {
+    z-index: 99;
+    position: relative;
+    float: left;
+    border: solid 5px @white;    
+    border-radius: 50px;
+    overflow: hidden;
+    width: 50px;
+    padding: 0 !important;
+    margin: 0 !important;
+    
+    & img {
+      width: 100%;
+    }
+  }
+
+  a {
+    padding-left: 16px;
+    color: @white;
+  }
+
+  &-name {
+    line-height: 1;
+    font-size: 10pt;
+  }
+}
+
+#userImage {
+  padding: 0;
+  margin: 0;
+  max-width: 72px;
+}
+
+#imageFilename {
+  .removeImage {
+    color: @white;
+  }
+}

@@ -1,0 +1,108 @@
+/**
+ * @Author: HW <developer>
+ * @Date:   2024-08-18T10:46:06+06:30
+ * @Email:  info@orientwebs.com
+ * @Filename: custom.css
+ * @Last modified by:   developer
+ * @Last modified time: 2024-08-26T11:08:52+06:30
+ */
+
+ /*************     Header, Logo, Menu  ***********************************/
+ header.c-header{
+    height: 360px;
+    min-height: 360px;
+ }
+.search .input-transparent::placeholder {
+    color: #12450f;
+ }
+.search .input-transparent{
+    padding-left: 25px;
+    font-size: 14pt;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+      flex-flow: column nowrap;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        background: #10570eb0;
+        width: 100%;
+        bottom: ;-175px;
+        position: ;absolute;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        padding: 15px 15px 40px;
+        font-weight: 600;;
+        color: #fff;
+    }
+}
+.navbar{
+    padding: .5rem 0;
+}
+.navbar-nav.ml-auto{
+    margin: auto;
+}
+.navbar-nav li.nav-item {
+    border-radius: 5px 5px 0 0;
+    margin: 0 15px 3px 0;
+}
+li.nav-item.active, .navbar-nav li.nav-item:hover {
+    background: #fff;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-item:hover > .nav-link{
+    color: #144512;
+}
+
+/*************************      Misc    **************************/
+h1, h2, h3, h4, h5, h6 {
+    color: #174A10;
+    font-weight: 600;
+}
+.centered {
+    text-align: center;
+}
+.subtitle-section {
+    font-size: 15px;
+}
+
+.topic li {
+    width: calc(100% / 5 - 40px);
+    height: auto;
+    box-shadow: -7px 7px 0px 0px #174A10; 0px 5px 10px 0 #ddd;
+    background-color: #F8FAFC;
+    transition: 0.3s ease-in;
+    border-radius: 20px 5px;
+    border-color: #174A10;
+    margin: 15px 20px 30px!important;
+}
+.topic li:hover{
+    box-shadow: none;
+    border-color: #bbb; #174A10;
+    background-color: #fff;
+}
+#ecd-home .topic li a{
+    opacity: 1;
+}
+.topic li a h5, .topic li a h4{
+    color: #174A10;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.topic li a p{
+    color: #666;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 20px 20px;
+    line-height: 1.7;
+}
+.topic li a img{
+    background: #245a22b8;
+  border: 1px solid #164510;
+  border-radius: 50%;
+}
+
+.collection .card-text{
+    font-size: 14px;
+    color: #333;
+}

@@ -1,0 +1,55 @@
+images/barcodes/*
+images/persons/*
+images/docs/*
+images/labels/*
+images/cache/*
+images/content/*
+images/default/logo.png
+images/default/webicon.*
+# files/*
+# !files/membercard/*
+# repository/*
+# config/*
+# cache/*
+# .DS_Store
+# ._.*
+# ._*
+# .project
+# .idea
+# .vscode
+# sysconfig.local.inc.php
+# config/sysconfig.local.inc.php
+# sysconfig.inc.php
+# slims8_akasia.sublime-project
+# slims8_akasia.sublime-workspace
+
+# plugins/*
+!plugins/read_counter/
+
+# template/*
+
+# Windows image file caches
+# Thumbs.db
+# ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+# *.cab
+# *.msi
+# *.msm
+# *.msp
+
+# Windows shortcuts
+# *.lnk
+
+# /vendor/
+# composer.lock
+# config/database.php
+# config/captcha.php
+# config/env.php
+# tarsius
