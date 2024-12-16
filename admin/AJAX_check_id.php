@@ -3,11 +3,6 @@
 // key to authenticate
 define('INDEX_AUTH', '1');
 
-/*
-A Handler script for AJAX ID checking
-Arie Nugraha 2007
-*/
-
 require_once '../sysconfig.inc.php';
 // session checking
 require SB.'admin/default/session.inc.php';
