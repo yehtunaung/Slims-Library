@@ -5,6 +5,7 @@ define('INDEX_AUTH', '1');
 
 require_once '../sysconfig.inc.php';
 // session checking
+
 require SB.'admin/default/session.inc.php';
 require SB.'admin/default/session_check.inc.php';
 
