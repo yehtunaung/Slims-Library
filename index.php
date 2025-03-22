@@ -1,7 +1,6 @@
 <?php
 /**
  * SENAYAN application bootstrap files
- *
  * Copyright (C) 2007,2008  Arie Nugraha (dicarve@yahoo.com)
  * Update By Ye Htun Aung (C) 2025 Arie Nugraha (yehtun438@gmail.com)
  * Some modifications & patches by Hendro Wicaksono (hendrowicaksono@yahoo.com)
