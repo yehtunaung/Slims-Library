@@ -1,5 +1,5 @@
 <?php
-
+// developer by Ye Htun Aung 2025
 // key to authenticate
 define('INDEX_AUTH', '1');
 
