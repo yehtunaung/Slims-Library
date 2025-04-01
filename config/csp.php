@@ -1,7 +1,7 @@
 <?php
 /**
  * CSP (Content Security Policy)
- * 
+ * Ye Htun Aung ( YHA )
  * fell free to add your custom CSP.
  * 
  * original code by 2022 Hendro Wicaksono (hendrowicaksono@yahoo.com)
