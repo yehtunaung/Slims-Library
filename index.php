@@ -1,6 +1,6 @@
 <?php
 /**
- * Ye Htun Aung (yehtun438@gmail.com)
+ * Ye Htun Aung(Henry) (yehtun438@gmail.com)
  * SENAYAN application bootstrap files
  * Copyright (C) 2007,2008  Arie Nugraha (dicarve@yahoo.com)
  * Update By Ye Htun Aung (C) 2025 Arie Nugraha (yehtun438@gmail.com)
